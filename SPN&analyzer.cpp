@@ -461,7 +461,7 @@ void analyze()
 	m = 24;
 	a = 0;
 
-	/*set x, generate cipher texts and get ¦¤U*/
+	/*set x, generate cipher texts and get Â¦Â¤U*/
 	for (long long h = 0; h < mx / 2; h++)
 	{
 		copy(testing_pairs[h], testing_pairs[h] + block_size, x);
@@ -505,22 +505,22 @@ void analyze()
 		}
 	}
 
-	/*print ¦¤U1 and ¦¤U2*/
+	/*print Â¦Â¤U1 and Â¦Â¤U2*/
 	//for (long long i = 0; i < key_possibilities * mx / 2; i++)
 	//{
-	//	cout << endl << "¦¤U1:[" << i << "] ";
+	//	cout << endl << "Â¦Â¤U1:[" << i << "] ";
 	//	for (long long j = 0; j < block_size; j++)
 	//	{
 	//		cout << delta_u1[i][j];
 	//	}
-	//	cout << endl << "¦¤U2:[" << i << "] ";
+	//	cout << endl << "Â¦Â¤U2:[" << i << "] ";
 	//	for (long long j = 0; j < block_size; j++)
 	//	{
 	//		cout << delta_u2[i][j];
 	//	}
 	//}
 
-	/*check diff of each pair of ¦¤U1 and ¦¤U2*/
+	/*check diff of each pair of Â¦Â¤U1 and Â¦Â¤U2*/
 	for (long long i = 0; i < key_possibilities * mx / 2; i++)
 	{
 		for (long long j = 0; j < block_size; j++)
